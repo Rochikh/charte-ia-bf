@@ -1,0 +1,197 @@
+/* =========================================================
+   Bruxelles Formation — Design Tokens
+   Colors + Typography
+   ========================================================= */
+
+/* ---------- Fonts ---------- */
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&display=swap');
+/* Body text per brand: Arial (system). Space Grotesk for display + titles. */
+
+:root {
+  /* =========================================================
+     COLORS
+     The BF palette: 10 hues × 4 nuances (1=darkest → 4=lightest),
+     plus the anchor Bleu BF and White.
+     Rule: one hue per document; white dominant; Bleu BF unifies.
+     ========================================================= */
+
+  /* Anchors */
+  --bf-blue:        #16345f;   /* Bleu BF — primary anchor */
+  --bf-white:       #ffffff;
+
+  /* Jaune */
+  --bf-jaune-1:     #87750e;
+  --bf-jaune-2:     #edcb0c;
+  --bf-jaune-3:     #f3e17b;
+  --bf-jaune-4:     #faf7e1;
+
+  /* Vert */
+  --bf-vert-1:      #246a2e;
+  --bf-vert-2:      #4eae33;
+  --bf-vert-3:      #9fdc9b;
+  --bf-vert-4:      #def5d8;
+
+  /* Turquoise */
+  --bf-turquoise-1: #0a7160;
+  --bf-turquoise-2: #47b7a4;
+  --bf-turquoise-3: #b9e9dc;
+  --bf-turquoise-4: #e5f7f4;
+
+  /* Bleu */
+  --bf-bleu-1:      #1c5ea9;
+  --bf-bleu-2:      #4286c6;
+  --bf-bleu-3:      #9bc5eb;
+  --bf-bleu-4:      #e1f0fc;
+
+  /* Mauve */
+  --bf-mauve-1:     #3f2880;
+  --bf-mauve-2:     #524797;
+  --bf-mauve-3:     #bcadd5;
+  --bf-mauve-4:     #eae4fa;
+
+  /* Violet */
+  --bf-violet-1:    #7c3487;
+  --bf-violet-2:    #90509a;
+  --bf-violet-3:    #dfb5e5;
+  --bf-violet-4:    #f5e1f7;
+
+  /* Rose */
+  --bf-rose-1:      #851f5c;
+  --bf-rose-2:      #b82b80;
+  --bf-rose-3:      #ecbce7;
+  --bf-rose-4:      #fae3f7;
+
+  /* Fuchsia */
+  --bf-fuchsia-1:   #96254f;
+  --bf-fuchsia-2:   #f14382;
+  --bf-fuchsia-3:   #f7a0c0;
+  --bf-fuchsia-4:   #f3d8e2;
+
+  /* Rouge */
+  --bf-rouge-1:     #900b0d;
+  --bf-rouge-2:     #e03134;
+  --bf-rouge-3:     #f296ab;
+  --bf-rouge-4:     #f9dcdf;
+
+  /* Orange */
+  --bf-orange-1:    #9a4f16;
+  --bf-orange-2:    #f5810c;
+  --bf-orange-3:    #f9cea2;
+  --bf-orange-4:    #f7e9da;
+
+  /* =========================================================
+     SEMANTIC TOKENS
+     ========================================================= */
+  --fg-1:       var(--bf-blue);         /* Primary text on light */
+  --fg-2:       #3b4a63;                /* Secondary text */
+  --fg-muted:   #6b7280;
+  --fg-invert:  var(--bf-white);
+
+  --bg:         var(--bf-white);
+  --bg-subtle:  #f7f8fb;
+  --bg-invert:  var(--bf-blue);
+
+  --border:     #e3e7ee;
+  --border-strong: var(--bf-blue);
+
+  --accent:     var(--bf-blue);          /* default accent = Bleu BF */
+
+  /* =========================================================
+     TYPOGRAPHY
+     Display: Space Grotesk (bold / medium / regular)
+     Body:    Arial, Helvetica, sans-serif
+     ========================================================= */
+  --font-display: 'Space Grotesk', Arial, Helvetica, sans-serif;
+  --font-body:    Arial, Helvetica, sans-serif;
+
+  /* Type scale tuned to PDF specimens (flyer A5 referenced 54/43/23/14) */
+  --fs-display:   clamp(44px, 5.6vw, 72px);
+  --fs-h1:        clamp(34px, 4vw, 54px);
+  --fs-h2:        clamp(26px, 3vw, 40px);
+  --fs-h3:        22px;
+  --fs-h4:        18px;
+  --fs-body:      16px;
+  --fs-small:     14px;
+  --fs-caption:   12px;
+  --fs-overline:  11px;
+
+  --lh-tight:     1.05;
+  --lh-snug:      1.2;
+  --lh-normal:    1.5;
+  --lh-loose:     1.7;
+
+  /* =========================================================
+     SPACING / RADII / SHADOW
+     ========================================================= */
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-5: 24px;
+  --space-6: 32px;
+  --space-7: 48px;
+  --space-8: 64px;
+  --space-9: 96px;
+
+  --radius-sm: 4px;
+  --radius-md: 8px;
+  --radius-lg: 16px;
+  --radius-pill: 999px;
+
+  --shadow-sm: 0 1px 2px rgba(22,52,95,.06), 0 1px 3px rgba(22,52,95,.04);
+  --shadow-md: 0 4px 12px rgba(22,52,95,.08), 0 2px 4px rgba(22,52,95,.04);
+  --shadow-lg: 0 16px 40px rgba(22,52,95,.12);
+}
+
+/* =========================================================
+   SEMANTIC ELEMENT STYLES
+   ========================================================= */
+html, body {
+  font-family: var(--font-body);
+  font-size: var(--fs-body);
+  line-height: var(--lh-normal);
+  color: var(--fg-1);
+  background: var(--bg);
+  -webkit-font-smoothing: antialiased;
+}
+
+h1, h2, h3, h4, h5, .display {
+  font-family: var(--font-display);
+  font-weight: 700;
+  color: var(--fg-1);
+  line-height: var(--lh-tight);
+  letter-spacing: -0.01em;
+  margin: 0;
+}
+
+.display { font-size: var(--fs-display); }
+h1 { font-size: var(--fs-h1); line-height: var(--lh-tight); }
+h2 { font-size: var(--fs-h2); line-height: var(--lh-snug); }
+h3 { font-size: var(--fs-h3); line-height: var(--lh-snug); }
+h4 { font-size: var(--fs-h4); }
+
+p  { margin: 0 0 1em; line-height: var(--lh-normal); }
+
+.overline {
+  font-family: var(--font-display);
+  font-size: var(--fs-overline);
+  text-transform: uppercase;
+  letter-spacing: 0.14em;
+  font-weight: 500;
+  color: var(--fg-2);
+}
+
+a { color: var(--bf-blue); text-decoration: underline; text-underline-offset: 3px; }
+a:hover { color: var(--bf-bleu-1); }
+
+small { font-size: var(--fs-small); color: var(--fg-2); }
+
+/* The piano key — core brand motif.
+   Use as clip-path for image/container.
+   Proportions approximated from brand guide (tall rounded rectangle). */
+.bf-key {
+  border-radius: 12px 12px 48px 48px / 12px 12px 96px 96px;
+  aspect-ratio: 3 / 7;
+  overflow: hidden;
+  display: block;
+}
