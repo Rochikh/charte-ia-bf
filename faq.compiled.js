@@ -448,7 +448,7 @@ function Footer() {
   }, /*#__PURE__*/React.createElement("img", {
     src: typeof window !== 'undefined' && window.__resources?.logoBf || "assets/logo-bf.svg",
     alt: "Bruxelles Formation"
-  }), /*#__PURE__*/React.createElement("p", null, "Charte d'usage de l'intelligence artificielle \u2014 Version 2."), /*#__PURE__*/React.createElement("p", {
+  }), /*#__PURE__*/React.createElement("p", null, "Charte d'usage de l'intelligence artificielle \xB7 Version 3."), /*#__PURE__*/React.createElement("p", {
     style: {
       fontStyle: 'italic'
     }
@@ -474,6 +474,6 @@ function Footer() {
     href: "#"
   }, "Contact BF-TICE"))), /*#__PURE__*/React.createElement("div", {
     className: "app-footer__bottom"
-  }, /*#__PURE__*/React.createElement("span", null, "\xA9 Bruxelles Formation \xB7 Charte IA v2 \xB7 2026"), /*#__PURE__*/React.createElement("span", null, "Document \xE9volutif \u2014 vos retours sont pr\xE9cieux")));
+  }, /*#__PURE__*/React.createElement("span", null, "\xA9 Bruxelles Formation \xB7 Charte IA v3 \xB7 2026"), /*#__PURE__*/React.createElement("span", null, "Document \xE9volutif, vos retours sont pr\xE9cieux")));
 }
 window.Footer = Footer;
