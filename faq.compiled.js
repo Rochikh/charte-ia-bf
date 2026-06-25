@@ -446,7 +446,7 @@ function Footer() {
   }, /*#__PURE__*/React.createElement("div", {
     className: "app-footer__brand"
   }, /*#__PURE__*/React.createElement("img", {
-    src: typeof window !== 'undefined' && window.__resources?.logoBf || "assets/logo-bf.svg",
+    src: typeof window !== 'undefined' && window.__resources?.logoBf || "assets/logo-bf.png",
     alt: "Bruxelles Formation"
   }), /*#__PURE__*/React.createElement("p", null, "Charte d'usage de l'intelligence artificielle \xB7 Version 3."), /*#__PURE__*/React.createElement("p", {
     style: {
