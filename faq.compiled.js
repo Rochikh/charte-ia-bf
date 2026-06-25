@@ -474,6 +474,6 @@ function Footer() {
     href: "#"
   }, "Contact BF-TICE"))), /*#__PURE__*/React.createElement("div", {
     className: "app-footer__bottom"
-  }, /*#__PURE__*/React.createElement("span", null, "\xA9 Bruxelles Formation \xB7 Charte IA v3 \xB7 2026"), /*#__PURE__*/React.createElement("span", null, "Document \xE9volutif, vos retours sont pr\xE9cieux")), /*#__PURE__*/React.createElement("p", { className: "app-footer__ia", style: { maxWidth: "1200px", margin: "8px auto 0", fontSize: "11px", color: "rgba(255,255,255,.4)", textAlign: "center" } }, "Site et FAQ con\xE7us avec l\'appui de l\'IA (Claude, Claude Design), relus et valid\xE9s par le GT IA."));
+  }, /*#__PURE__*/React.createElement("span", null, "\xA9 Bruxelles Formation \xB7 Charte IA v3 \xB7 2026"), /*#__PURE__*/React.createElement("span", null, "Document \xE9volutif, vos retours sont pr\xE9cieux")), /*#__PURE__*/React.createElement("p", { className: "app-footer__ia", style: { maxWidth: "1200px", margin: "8px auto 0", fontSize: "11px", color: "rgba(255,255,255,.4)", textAlign: "center" } }, "Site et FAQ conçus avec l'appui de l'IA, relus et validés par le GT IA.."));
 }
 window.Footer = Footer;
