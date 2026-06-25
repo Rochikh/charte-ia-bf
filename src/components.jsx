@@ -63,7 +63,7 @@ function Header({ active, onShare }) {
     <header className="app-header">
       <div className="app-header__inner">
         <a className="app-header__logo" href="#top">
-          <img src={(typeof window !== 'undefined' && window.__resources?.logoBf) || "assets/logo-bf.svg"} alt="Bruxelles Formation"/>
+          <img src={(typeof window !== 'undefined' && window.__resources?.logoBf) || "assets/logo-bf.png"} alt="Bruxelles Formation"/>
         </a>
         <div className="app-header__divider"></div>
         <div className="app-header__title">
