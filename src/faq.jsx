@@ -373,7 +373,7 @@ function Footer() {
       <div className="app-footer__inner">
         <div className="app-footer__brand">
           <img src={(typeof window !== 'undefined' && window.__resources?.logoBf) || "assets/logo-bf.svg"} alt="Bruxelles Formation"/>
-          <p>Charte d'usage de l'intelligence artificielle — Version 2.</p>
+          <p>Charte d'usage de l'intelligence artificielle · Version 3.</p>
           <p style={{ fontStyle: 'italic' }}>
             « Cette charte est évolutive et adaptée en fonction des usages,
             des retours d'expérience et du cadre réglementaire. »
@@ -395,8 +395,8 @@ function Footer() {
         </div>
       </div>
       <div className="app-footer__bottom">
-        <span>© Bruxelles Formation · Charte IA v2 · 2026</span>
-        <span>Document évolutif — vos retours sont précieux</span>
+        <span>© Bruxelles Formation · Charte IA v3 · 2026</span>
+        <span>Document évolutif, vos retours sont précieux</span>
       </div>
     </footer>
   );
