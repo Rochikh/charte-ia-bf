@@ -209,7 +209,7 @@ function Header({
     className: "app-header__logo",
     href: "#top"
   }, /*#__PURE__*/React.createElement("img", {
-    src: typeof window !== 'undefined' && window.__resources?.logoBf || "assets/logo-bf.svg",
+    src: typeof window !== 'undefined' && window.__resources?.logoBf || "assets/logo-bf.png",
     alt: "Bruxelles Formation"
   })), /*#__PURE__*/React.createElement("div", {
     className: "app-header__divider"
