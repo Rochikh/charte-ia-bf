@@ -215,7 +215,7 @@ function Header({
     className: "app-header__divider"
   }), /*#__PURE__*/React.createElement("div", {
     className: "app-header__title"
-  }, /*#__PURE__*/React.createElement("small", null, "Charte IA \xB7 V2"), "Usage de l'intelligence artificielle"), /*#__PURE__*/React.createElement("nav", {
+  }, /*#__PURE__*/React.createElement("small", null, "Charte IA \xB7 V3"), "Usage de l'intelligence artificielle"), /*#__PURE__*/React.createElement("nav", {
     className: "app-header__nav"
   }, links.map(l => /*#__PURE__*/React.createElement("a", {
     key: l.id,
