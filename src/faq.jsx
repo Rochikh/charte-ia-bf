@@ -398,7 +398,7 @@ function Footer() {
         <span>© Bruxelles Formation · Charte IA v3 · 2026</span>
         <span>Document évolutif, vos retours sont précieux</span>
       </div>
-      <p className="app-footer__ia" style={{ maxWidth: '1200px', margin: '8px auto 0', fontSize: '11px', color: 'rgba(255,255,255,.4)', textAlign: 'center' }}>Site et FAQ conçus avec l'appui de l'IA (Claude, Claude Design), relus et validés par le GT IA.</p>
+      <p className="app-footer__ia" style={{ maxWidth: '1200px', margin: '8px auto 0', fontSize: '11px', color: 'rgba(255,255,255,.4)', textAlign: 'center' }}>Site et FAQ conçus avec l'appui de l'IA, relus et validés par le GT IA.</p>
     </footer>
   );
 }
