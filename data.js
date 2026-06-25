@@ -35,6 +35,28 @@ window.CHARTER = {
     },
     {
       "n": 2,
+      "hue": "vert",
+      "title": "Usage responsable et proportionné",
+      "slogan": "L'IA est une option, pas la solution.",
+      "pillars": [
+        "Quand elle fait gagner du temps",
+        "Quand elle améliore la qualité",
+        "Jamais à la place des échanges humains essentiels",
+        "Choisir de ne pas l'utiliser est un choix légitime"
+      ],
+      "examples": {
+        "ok": [
+          "Synthétiser des évaluations sur un domaine que vous maîtrisez, pour juger la fidélité du résumé",
+          "Reformuler un mail délicat avant l'envoi"
+        ],
+        "ko": [
+          "Faire écrire un retour à un·e apprenant·e en difficulté",
+          "Remplacer une réunion d'équipe par un résumé IA"
+        ]
+      }
+    },
+    {
+      "n": 3,
       "hue": "turquoise",
       "title": "Protection des données et des informations",
       "slogan": "Interne sécurisé ≠ externe public.",
@@ -55,7 +77,7 @@ window.CHARTER = {
       }
     },
     {
-      "n": 3,
+      "n": 4,
       "hue": "orange",
       "title": "Transparence des usages",
       "slogan": "Si l'IA a vraiment contribué, ça se dit.",
@@ -72,28 +94,6 @@ window.CHARTER = {
         "ko": [
           "Publier un quiz généré sans aucune mention",
           "Signaler chaque correction orthographique"
-        ]
-      }
-    },
-    {
-      "n": 4,
-      "hue": "vert",
-      "title": "Usage responsable et proportionné",
-      "slogan": "L'IA est une option, pas la solution.",
-      "pillars": [
-        "Quand elle fait gagner du temps",
-        "Quand elle améliore la qualité",
-        "Jamais à la place des échanges humains essentiels",
-        "Choisir de ne pas l'utiliser est un choix légitime"
-      ],
-      "examples": {
-        "ok": [
-          "Synthétiser des évaluations sur un domaine que vous maîtrisez, pour juger la fidélité du résumé",
-          "Reformuler un mail délicat avant l'envoi"
-        ],
-        "ko": [
-          "Faire écrire un retour à un·e apprenant·e en difficulté",
-          "Remplacer une réunion d'équipe par un résumé IA"
         ]
       }
     },
