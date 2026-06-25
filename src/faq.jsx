@@ -372,7 +372,7 @@ function Footer() {
     <footer className="app-footer">
       <div className="app-footer__inner">
         <div className="app-footer__brand">
-          <img src={(typeof window !== 'undefined' && window.__resources?.logoBf) || "assets/logo-bf.svg"} alt="Bruxelles Formation"/>
+          <img src={(typeof window !== 'undefined' && window.__resources?.logoBf) || "assets/logo-bf.png"} alt="Bruxelles Formation"/>
           <p>Charte d'usage de l'intelligence artificielle · Version 3.</p>
           <p style={{ fontStyle: 'italic' }}>
             « Cette charte est évolutive et adaptée en fonction des usages,
