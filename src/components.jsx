@@ -67,7 +67,7 @@ function Header({ active, onShare }) {
         </a>
         <div className="app-header__divider"></div>
         <div className="app-header__title">
-          <small>Charte IA · V2</small>
+          <small>Charte IA · V3</small>
           Usage de l'intelligence artificielle
         </div>
         <nav className="app-header__nav">
