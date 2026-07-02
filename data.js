@@ -9,7 +9,7 @@ window.CHARTER = {
     "version": "Version 3 · 2026",
     "title": "L'IA à Bruxelles Formation",
     "sub": "Un cadre simple, opérationnel et évolutif pour utiliser l'intelligence artificielle dans nos missions pédagogiques et administratives.",
-    "finalite": "L'intelligence artificielle est utilisée comme un outil d'appui aux missions pédagogiques et administratives. Elle améliore l'efficacité et la qualité des services sans se substituer à la responsabilité humaine."
+    "finalite": "L'intelligence artificielle est utilisée comme un outil d'appui aux missions pédagogiques et administratives. Bien utilisée, elle peut améliorer l'efficacité et la qualité des services sans se substituer à la responsabilité humaine."
   },
   "engagements": [
     {
@@ -133,7 +133,7 @@ window.CHARTER = {
       "id": "IA-C",
       "label": "Co-construction",
       "hue": "turquoise",
-      "pitch": "L'IA contribue à structurer ou rédiger une partie du contenu.",
+      "pitch": "L'IA contribue à structurer ou rédiger une partie du contenu. La majorité du texte final reste de votre main.",
       "examples": "Plan, idées développées, sections partielles d'un livrable.",
       "mention": "Contenu co-construit avec l'appui de l'IA (IA-C).",
       "threshold": "À signaler dès qu'une partie significative est issue de l'IA."
@@ -142,7 +142,7 @@ window.CHARTER = {
       "id": "IA-G",
       "label": "Génération",
       "hue": "orange",
-      "pitch": "L'IA produit l'essentiel du contenu.",
+      "pitch": "L'IA produit l'essentiel du texte final, même quand le fond, la matière et les décisions viennent de vous.",
       "examples": "Texte, support, image, vidéo, podcast majoritairement généré.",
       "mention": "Contenu majoritairement généré par IA (IA-G), relu et validé par [Prénom Nom].",
       "threshold": "Signalement systématique, avec mention du valideur humain."
@@ -172,6 +172,14 @@ window.FAQ = [
         "a": "Oui, c'est autorisé dès lors que l'usage apporte une valeur ajoutée réelle (gain de temps significatif, qualité accrue, aide sur une tâche complexe ou inhabituelle) et qu'il respecte les 5 engagements de la charte. **Ne pas utiliser l'IA est tout aussi légitime** : par choix, par prudence, ou pour des raisons de valeurs, d'impact sociétal et environnemental, ou de souveraineté numérique. **Privilégiez Copilot M365 en première intention** : c'est l'outil sécurisé à utiliser pour le travail courant."
       },
       {
+        "q": "Tous les usages de l'IA nécessitent-ils réellement un outil génératif ?",
+        "a": "Non, et c'est une question essentielle. Avant d'invoquer l'IA, demandez-vous :\n• Est-ce que la réponse existe déjà sur Magellan, dans un mail, dans un document ?\n• Une recherche simple suffirait-elle ?\n• Un·e collègue saurait-il·elle répondre en 2 minutes ?\nL'IA est utile, pas universelle."
+      },
+      {
+        "q": "Comment utiliser l'IA de manière sobre et pertinente ?",
+        "a": "Quatre habitudes :\n• **Préparer son prompt** avant de l'envoyer (1 bon prompt > 10 essais).\n• **Réutiliser** les conversations utiles plutôt que recommencer.\n• **Choisir l'outil minimal suffisant** : un outil déjà couvert par BF (Copilot M365 en première intention), sans compte personnel supplémentaire, avec des données non sensibles uniquement. Pas besoin du dernier modèle pour une reformulation. Pour un cas concret, demandez à BF-TICE.\n• **Préférer le texte** quand c'est possible, plutôt qu'image/audio/vidéo."
+      },
+      {
         "q": "Quels usages de l'IA sont interdits à Bruxelles Formation ?",
         "a": "Ces exemples ne sont pas exhaustifs. Trois familles d'usages sont à proscrire :\n• **Données sensibles dans un outil externe** : RH, apprenant·e·s, budgets, données stratégiques.\n• **Usages illégaux ou contraires aux valeurs** : contenus discriminatoires, atteinte à la vie privée, contournement de droits d'auteur.\n• **Décision autonome sans contrôle humain** : aucune décision affectant une personne (sélection, évaluation, sanction) ne peut être déléguée à l'IA.\n**En cas de doute sur un usage non listé, posez la question avant de le faire.**"
       },
@@ -185,7 +193,7 @@ window.FAQ = [
       },
       {
         "q": "Quelle différence entre IA-A, IA-C, IA-G et IA-D ?",
-        "a": "Quatre niveaux d'implication de l'IA :\n• **IA-A (Assistance)**, l'IA améliore un contenu existant : correction, reformulation, traduction.\n• **IA-C (Co-construction)**, l'IA structure ou rédige une partie : plan, idées, sections.\n• **IA-G (Génération)**, l'IA produit l'essentiel : texte, image, vidéo majoritairement générés.\n• **IA-D (Décision/Analyse)**, l'IA aide à analyser ou orienter une décision.\nPlus on monte dans l'échelle, plus la mention est explicite et la validation humaine visible."
+        "a": "Quatre niveaux d'implication de l'IA :\n• **IA-A (Assistance)**, l'IA améliore un contenu existant : correction, reformulation, traduction.\n• **IA-C (Co-construction)**, l'IA structure ou rédige une partie : plan, idées, sections.\n• **IA-G (Génération)**, l'IA produit l'essentiel : texte, image, vidéo majoritairement générés.\n• **IA-D (Décision/Analyse)**, l'IA aide à analyser ou orienter une décision.\nPlus on monte dans l'échelle, plus la mention est explicite et la validation humaine visible.\nLe critère qui distingue IA-C et IA-G porte sur le texte final, pas sur l'origine des idées. Si la majorité des formulations vient de l'IA, c'est IA-G, même quand la matière, les choix et le pilotage sont humains. Si la majorité du texte reste de votre main, c'est IA-C. En cas d'hésitation, choisissez le marquage supérieur : signaler l'IA n'enlève rien à votre travail."
       },
       {
         "q": "Pourquoi Bruxelles Formation encadre-t-elle l'usage de l'IA ?",
@@ -197,7 +205,11 @@ window.FAQ = [
       },
       {
         "q": "Où trouver les outils IA autorisés, les recommandations et les bonnes pratiques BF ?",
-        "a": "Sur **Magellan** (intranet BF) : section IA / Copilot. Vous y trouverez :\n• La liste des outils validés\n• Les guides d'usage par métier\n• Les exemples de prompts\n• Le support BF-TICE pour vos questions\nSelon la nature de la question, l'interlocuteur varie (voir « Où trouver de l'aide »). En cas de doute sur un outil non listé, contactez BF-TICE avant de l'utiliser."
+        "a": "La section IA / Copilot de **Magellan** (intranet BF) est **en cours de constitution**. Elle regroupera la liste des outils validés, les exemples de prompts et le support BF-TICE.\nEn attendant, l'interlocuteur varie selon la nature de votre question :\n• **BF-TICE** : outils, usages, prompts.\n• **DSI** : sécurité, comptes, autorisation d'un nouvel outil.\n• **Direction juridique / DPO** : données personnelles, cadre légal.\n• **GT IA** : arbitrage d'un nouvel usage.\nEn cas de doute sur un outil non listé, contactez BF-TICE avant de l'utiliser."
+      },
+      {
+        "q": "L'usage de l'IA a-t-il un impact environnemental et sociétal ?",
+        "a": "Oui, et la charte y consacre une catégorie entière : **Numérique responsable et impact environnemental**. Vous y trouverez comment limiter l'empreinte de vos usages, quels usages consomment le plus et comment concilier innovation et sobriété."
       }
     ]
   },
@@ -217,7 +229,7 @@ window.FAQ = [
       },
       {
         "q": "Puis-je utiliser Gemini, ChatGPT ou Claude avec mon compte professionnel ?",
-        "a": "**Non pas avec votre adresse @bruxellesformation** sauf autorisation de la DSI, seule habilitée sur les comptes et les contrats d'outils. Ces outils ne sont pas couverts par un contrat BF. Utilisez Copilot M365 pour le travail. Si vous souhaitez explorer un autre outil, faites-le sur un compte personnel et avec des données publiques uniquement."
+        "a": "**Non pas avec votre adresse @bruxellesformation.brussels** sauf autorisation de la DSI, seule habilitée sur les comptes et les contrats d'outils. Ces outils ne sont pas couverts par un contrat BF. Utilisez Copilot M365 pour le travail. Si vous souhaitez explorer un autre outil, faites-le sur un compte personnel et avec des données publiques uniquement."
       },
       {
         "q": "Quelle différence entre usage personnel, usage professionnel et usage sensible ?",
@@ -278,6 +290,62 @@ window.FAQ = [
       {
         "q": "Que comprend la propriété intellectuelle de Bruxelles Formation dans le cadre de l'IA ?",
         "a": "Sont considérés comme relevant de la propriété intellectuelle de BF :\n• les **contenus pédagogiques** internes (modules, supports, exercices, évaluations),\n• les **documents internes** (procédures, analyses, projets, notes stratégiques),\n• les **supports non publics** (présentations internes, livrables clients).\nCes contenus ne doivent pas être injectés dans des outils IA externes sans précaution (anonymisation, accord)."
+      }
+    ]
+  },
+  {
+    "id": "qualite",
+    "label": "Qualité, fiabilité et esprit critique",
+    "icon": "check",
+    "hue": "rose",
+    "items": [
+      {
+        "q": "Comment vérifier qu'un contenu généré par l'IA est fiable ?",
+        "a": "Privilégiez l'IA sur des sujets que vous connaissez un minimum : c'est ce qui vous permet de juger la pertinence et l'exactitude.\nQuatre réflexes :\n• **Sources**, demandez à l'IA de citer ses sources, puis vérifiez-les (les références sont parfois inventées).\n• **Faits vérifiables**, chiffres, dates, noms : recoupez avec une source officielle.\n• **Cohérence interne**, l'IA peut se contredire d'un paragraphe à l'autre.\n• **Relecture par un·e collègue** si le contenu est sensible ou nouveau pour vous."
+      },
+      {
+        "q": "L'IA peut-elle inventer des informations ou commettre des erreurs ?",
+        "a": "**Oui, systématiquement.** On parle d'« hallucinations » : l'IA peut inventer une citation, un article, une statistique, un nom de personne, avec un aplomb total. Ce n'est pas un bug rare, c'est une caractéristique de fonctionnement. **Aucun contenu IA ne doit être considéré comme fiable avant vérification humaine.**"
+      },
+      {
+        "q": "Pourquoi deux outils IA peuvent-ils produire des réponses différentes ?",
+        "a": "Trois raisons :\n• **Modèles différents**, chaque IA a été entraînée sur des données différentes, jusqu'à des dates différentes.\n• **Paramètres**, la « température » (créativité) varie selon les outils.\n• **Contexte de la conversation**, un même prompt formulé différemment donne d'autres résultats.\nComparer deux outils est un excellent exercice d'esprit critique."
+      },
+      {
+        "q": "Quels réflexes adopter avant de partager un contenu généré par l'IA ?",
+        "a": "La règle des 4 V :\n• **Vérifier** les faits, chiffres et sources.\n• **Valider** la cohérence avec le contexte BF.\n• **Visualiser** comment le contenu sera reçu par son destinataire.\n• **Verbaliser** l'usage de l'IA si la transparence est requise."
+      },
+      {
+        "q": "Comment garder un regard critique face aux réponses générées par l'IA ?",
+        "a": "Trois techniques simples :\n• **« Et si je posais la question inverse ? »**, demandez à l'IA de critiquer sa propre réponse.\n• **« Quelles sont les limites de cette réponse ? »**, un bon prompt explicite.\n• **« Compare deux approches »**, au lieu d'une réponse, demandez-en deux opposées, puis arbitrez."
+      },
+      {
+        "q": "Comment améliorer ses prompts pour obtenir des résultats plus pertinents ?",
+        "a": "Quatre leviers :\n• **Contexte**, précisez votre rôle (« je suis formateur·rice BF »), votre public, votre format attendu.\n• **Exemples**, donnez 1-2 exemples de ce que vous attendez.\n• **Contraintes**, longueur, ton, langue, structure.\n• **Itération**, un bon prompt s'obtient en 3-4 allers-retours, pas du premier coup.\nLe BF-TICE propose une bibliothèque de prompts éprouvés sur Magellan."
+      },
+      {
+        "q": "Pourquoi faut-il toujours relire et valider un contenu généré par l'IA ?",
+        "a": "Parce que vous restez responsable. Trois risques courants :\n• **Erreur factuelle**, l'IA invente.\n• **Biais**, l'IA reproduit des stéréotypes présents dans ses données d'entraînement.\n• **Décalage de ton**, l'IA produit du « propre » mais pas forcément du BF (institutionnel, inclusif, bruxellois).\nLa relecture n'est pas une formalité, c'est le vrai travail."
+      }
+    ]
+  },
+  {
+    "id": "environnement",
+    "label": "Numérique responsable et impact environnemental",
+    "icon": "leaf",
+    "hue": "vert",
+    "items": [
+      {
+        "q": "Comment limiter l'impact environnemental lié aux usages de l'IA ?",
+        "a": "Trois leviers concrets :\n• **Pertinence**, n'utilisez l'IA que si elle apporte une valeur réelle. Un document ou une ressource existante suffit souvent.\n• **Précision du prompt**, un prompt clair évite les régénérations.\n• **Frugalité multimédia**, la génération d'images, vidéos, voix consomme 10 à 100× plus qu'un texte. Réservez-la aux usages utiles."
+      },
+      {
+        "q": "Quels usages de l'IA ont le plus d'impact environnemental ?",
+        "a": "Par ordre décroissant :\n• **Génération vidéo**, extrêmement coûteuse en calcul.\n• **Génération d'images** haute définition, en masse.\n• **Voix de synthèse** longues.\n• **Analyse de gros fichiers** (Excel volumineux, PDF multiples).\n• **Texte court**, l'usage le plus sobre.\nÀ usage équivalent, privilégiez toujours le format le plus léger."
+      },
+      {
+        "q": "Comment concilier innovation IA et numérique responsable ?",
+        "a": "L'innovation n'exige pas la démesure. Trois principes BF :\n• **Expérimenter à petite échelle** avant de généraliser.\n• **Mesurer** la valeur ajoutée réelle (gain de temps, qualité).\n• **Arrêter** les usages qui ne tiennent pas leurs promesses.\nLa sobriété n'est pas l'ennemie de l'innovation, elle en est la condition durable."
       }
     ]
   },
@@ -366,70 +434,6 @@ window.FAQ = [
       {
         "q": "Puis-je utiliser l'IA pour proposer des méthodes de travail ou aider à prioriser des actions ?",
         "a": "Oui, l'IA est un bon « miroir réflexif ». Elle vous renvoie une structuration de vos enjeux que vous validez ou rejetez. C'est plus efficace que la page blanche, mais ne dispense jamais d'arbitrer humainement les priorités."
-      }
-    ]
-  },
-  {
-    "id": "qualite",
-    "label": "Qualité, fiabilité et esprit critique",
-    "icon": "check",
-    "hue": "rose",
-    "items": [
-      {
-        "q": "Comment vérifier qu'un contenu généré par l'IA est fiable ?",
-        "a": "Privilégiez l'IA sur des sujets que vous connaissez un minimum : c'est ce qui vous permet de juger la pertinence et l'exactitude.\nQuatre réflexes :\n• **Sources**, demandez à l'IA de citer ses sources, puis vérifiez-les (les références sont parfois inventées).\n• **Faits vérifiables**, chiffres, dates, noms : recoupez avec une source officielle.\n• **Cohérence interne**, l'IA peut se contredire d'un paragraphe à l'autre.\n• **Relecture par un·e collègue** si le contenu est sensible ou nouveau pour vous."
-      },
-      {
-        "q": "L'IA peut-elle inventer des informations ou commettre des erreurs ?",
-        "a": "**Oui, systématiquement.** On parle d'« hallucinations » : l'IA peut inventer une citation, un article, une statistique, un nom de personne, avec un aplomb total. Ce n'est pas un bug rare, c'est une caractéristique de fonctionnement. **Aucun contenu IA ne doit être considéré comme fiable avant vérification humaine.**"
-      },
-      {
-        "q": "Pourquoi deux outils IA peuvent-ils produire des réponses différentes ?",
-        "a": "Trois raisons :\n• **Modèles différents**, chaque IA a été entraînée sur des données différentes, jusqu'à des dates différentes.\n• **Paramètres**, la « température » (créativité) varie selon les outils.\n• **Contexte de la conversation**, un même prompt formulé différemment donne d'autres résultats.\nComparer deux outils est un excellent exercice d'esprit critique."
-      },
-      {
-        "q": "Quels réflexes adopter avant de partager un contenu généré par l'IA ?",
-        "a": "La règle des 4 V :\n• **Vérifier** les faits, chiffres et sources.\n• **Valider** la cohérence avec le contexte BF.\n• **Visualiser** comment le contenu sera reçu par son destinataire.\n• **Verbaliser** l'usage de l'IA si la transparence est requise."
-      },
-      {
-        "q": "Comment garder un regard critique face aux réponses générées par l'IA ?",
-        "a": "Trois techniques simples :\n• **« Et si je posais la question inverse ? »**, demandez à l'IA de critiquer sa propre réponse.\n• **« Quelles sont les limites de cette réponse ? »**, un bon prompt explicite.\n• **« Compare deux approches »**, au lieu d'une réponse, demandez-en deux opposées, puis arbitrez."
-      },
-      {
-        "q": "Comment améliorer ses prompts pour obtenir des résultats plus pertinents ?",
-        "a": "Quatre leviers :\n• **Contexte**, précisez votre rôle (« je suis formateur·rice BF »), votre public, votre format attendu.\n• **Exemples**, donnez 1-2 exemples de ce que vous attendez.\n• **Contraintes**, longueur, ton, langue, structure.\n• **Itération**, un bon prompt s'obtient en 3-4 allers-retours, pas du premier coup.\nLe BF-TICE propose une bibliothèque de prompts éprouvés sur Magellan."
-      },
-      {
-        "q": "Pourquoi faut-il toujours relire et valider un contenu généré par l'IA ?",
-        "a": "Parce que vous restez responsable. Trois risques courants :\n• **Erreur factuelle**, l'IA invente.\n• **Biais**, l'IA reproduit des stéréotypes présents dans ses données d'entraînement.\n• **Décalage de ton**, l'IA produit du « propre » mais pas forcément du BF (institutionnel, inclusif, bruxellois).\nLa relecture n'est pas une formalité, c'est le vrai travail."
-      }
-    ]
-  },
-  {
-    "id": "environnement",
-    "label": "Numérique responsable et impact environnemental",
-    "icon": "leaf",
-    "hue": "vert",
-    "items": [
-      {
-        "q": "Comment limiter l'impact environnemental lié aux usages de l'IA ?",
-        "a": "Trois leviers concrets :\n• **Pertinence**, n'utilisez l'IA que si elle apporte une valeur réelle. Un document ou une ressource existante suffit souvent.\n• **Précision du prompt**, un prompt clair évite les régénérations.\n• **Frugalité multimédia**, la génération d'images, vidéos, voix consomme 10 à 100× plus qu'un texte. Réservez-la aux usages utiles."
-      },
-      {
-        "q": "Tous les usages de l'IA nécessitent-ils réellement un outil génératif ?",
-        "a": "Non, et c'est une question essentielle. Avant d'invoquer l'IA, demandez-vous :\n• Est-ce que la réponse existe déjà sur Magellan, dans un mail, dans un document ?\n• Une recherche simple suffirait-elle ?\n• Un·e collègue saurait-il·elle répondre en 2 minutes ?\nL'IA est utile, pas universelle."
-      },
-      {
-        "q": "Comment utiliser l'IA de manière sobre et pertinente ?",
-        "a": "Quatre habitudes :\n• **Préparer son prompt** avant de l'envoyer (1 bon prompt > 10 essais).\n• **Réutiliser** les conversations utiles plutôt que recommencer.\n• **Choisir l'outil minimal suffisant**, pas besoin du dernier modèle pour une reformulation.\n• **Préférer le texte** quand c'est possible, plutôt qu'image/audio/vidéo."
-      },
-      {
-        "q": "Quels usages de l'IA ont le plus d'impact environnemental ?",
-        "a": "Par ordre décroissant :\n• **Génération vidéo**, extrêmement coûteuse en calcul.\n• **Génération d'images** haute définition, en masse.\n• **Voix de synthèse** longues.\n• **Analyse de gros fichiers** (Excel volumineux, PDF multiples).\n• **Texte court**, l'usage le plus sobre.\nÀ usage équivalent, privilégiez toujours le format le plus léger."
-      },
-      {
-        "q": "Comment concilier innovation IA et numérique responsable ?",
-        "a": "L'innovation n'exige pas la démesure. Trois principes BF :\n• **Expérimenter à petite échelle** avant de généraliser.\n• **Mesurer** la valeur ajoutée réelle (gain de temps, qualité).\n• **Arrêter** les usages qui ne tiennent pas leurs promesses.\nLa sobriété n'est pas l'ennemie de l'innovation, elle en est la condition durable."
       }
     ]
   },
