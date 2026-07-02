@@ -386,19 +386,12 @@ function Footer() {
           <a href="#outils">Assistants</a>
           <a href="#faq">FAQ</a>
         </div>
-        <div className="app-footer__col">
-          <h4>Ressources BF</h4>
-          <a href="#">Magellan — section IA</a>
-          <a href="#">Catalogue Copilot M365</a>
-          <a href="#">Bibliothèque de prompts</a>
-          <a href="#">Contact BF-TICE</a>
-        </div>
       </div>
       <div className="app-footer__bottom">
         <span>© Bruxelles Formation · Charte IA v3 · 2026</span>
         <span>Document évolutif, vos retours sont précieux</span>
       </div>
-      <p className="app-footer__ia" style={{ maxWidth: '1200px', margin: '8px auto 0', fontSize: '11px', color: 'rgba(255,255,255,.4)', textAlign: 'center' }}>Site et FAQ conçus avec l'appui de l'IA, relus et validés par le GT IA.</p>
+      <p className="app-footer__ia" style={{ maxWidth: '1200px', margin: '8px auto 0', fontSize: '11px', color: 'rgba(255,255,255,.4)', textAlign: 'center' }}>Contenu majoritairement généré par IA (marquage <a href="#codes" style={{ color: 'rgba(255,255,255,.55)' }}>IA-G</a>), relu et validé par le GT IA.</p>
     </footer>
   );
 }
