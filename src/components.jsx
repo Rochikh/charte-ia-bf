@@ -252,6 +252,9 @@ function CodesSection({ onToast }) {
             <CodeCard key={c.id} data={c} onCopy={onToast}/>
           ))}
         </div>
+        <p style={{ marginTop: '20px', textAlign: 'center' }}>
+          Un doute entre deux marquages ? <a href="#outils">Utilisez l'assistant de marquage dans l'onglet Assistants.</a>
+        </p>
       </div>
     </section>
   );
