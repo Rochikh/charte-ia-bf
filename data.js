@@ -8,8 +8,7 @@ window.CHARTER = {
     "label": "Charte d'usage",
     "version": "Version 3 · 2026",
     "title": "L'IA à Bruxelles Formation",
-    "sub": "Un cadre simple, opérationnel et évolutif pour utiliser l'intelligence artificielle dans nos missions pédagogiques et administratives.",
-    "finalite": "L'intelligence artificielle est utilisée comme un outil d'appui aux missions pédagogiques et administratives. Bien utilisée, elle peut améliorer l'efficacité et la qualité des services sans se substituer à la responsabilité humaine."
+    "sub": "Un cadre simple, opérationnel et évolutif pour utiliser l'intelligence artificielle dans nos missions pédagogiques et administratives."
   },
   "engagements": [
     {
@@ -50,7 +49,7 @@ window.CHARTER = {
           "Reformuler un mail délicat avant l'envoi"
         ],
         "ko": [
-          "Faire écrire un retour à un·e apprenant·e en difficulté",
+          "Faire écrire un retour à un stagiaire en difficulté",
           "Remplacer une réunion d'équipe par un résumé IA"
         ]
       }
@@ -83,7 +82,7 @@ window.CHARTER = {
       "slogan": "Si l'IA a vraiment contribué, ça se dit.",
       "pillars": [
         "Obligatoire : pédagogie, évaluations, comms externes",
-        "4 marquages : IA-A / C / G / D",
+        "4 marquages : IA-A / C / G / O",
         "Inutile pour l'exploration interne"
       ],
       "examples": {
@@ -148,12 +147,12 @@ window.CHARTER = {
       "threshold": "Signalement systématique, avec mention du valideur humain."
     },
     {
-      "id": "IA-D",
-      "label": "Décision / Analyse",
+      "id": "IA-O",
+      "label": "Oriente une décision",
       "hue": "mauve",
       "pitch": "L'IA analyse, interprète ou oriente une décision.",
       "examples": "Analyse d'un tableau Excel, comparaison de scénarios, identification de tendances.",
-      "mention": "Analyse réalisée avec l'appui de l'IA (IA-D), décision humaine assumée par [Prénom Nom].",
+      "mention": "Décision orientée avec l'appui de l'IA (IA-O), décision humaine assumée par [Prénom Nom].",
       "threshold": "Toujours préciser que la décision finale reste humaine."
     }
   ],
@@ -181,7 +180,7 @@ window.FAQ = [
       },
       {
         "q": "Quels usages de l'IA sont interdits à Bruxelles Formation ?",
-        "a": "Ces exemples ne sont pas exhaustifs. Trois familles d'usages sont à proscrire :\n• **Données sensibles dans un outil externe** : RH, apprenant·e·s, budgets, données stratégiques.\n• **Usages illégaux ou contraires aux valeurs** : contenus discriminatoires, atteinte à la vie privée, contournement de droits d'auteur.\n• **Décision autonome sans contrôle humain** : aucune décision affectant une personne (sélection, évaluation, sanction) ne peut être déléguée à l'IA.\n**En cas de doute sur un usage non listé, posez la question avant de le faire.**"
+        "a": "Ces exemples ne sont pas exhaustifs. Trois familles d'usages sont à proscrire :\n• **Données sensibles dans un outil externe** : RH, stagiaires, budgets, données stratégiques.\n• **Usages illégaux ou contraires aux valeurs** : contenus discriminatoires, atteinte à la vie privée, contournement de droits d'auteur.\n• **Décision autonome sans contrôle humain** : aucune décision affectant une personne (sélection, évaluation, sanction) ne peut être déléguée à l'IA.\n**En cas de doute sur un usage non listé, posez la question avant de le faire.**"
       },
       {
         "q": "Qui reste responsable en cas d'erreur dans un contenu généré avec l'IA ?",
@@ -189,15 +188,15 @@ window.FAQ = [
       },
       {
         "q": "Peut-on utiliser l'IA pour aider à une prise de décision ?",
-        "a": "Oui, comme **aide à l'analyse** (synthèse, comparaison de scénarios, identification de tendances), jamais comme décideur. La supervision humaine est obligatoire et la décision finale doit être assumée par une personne identifiée. Ces usages relèvent du marquage IA-D."
+        "a": "Oui, comme **aide à l'analyse** (synthèse, comparaison de scénarios, identification de tendances), jamais comme décideur. La supervision humaine est obligatoire et la décision finale doit être assumée par une personne identifiée. Ces usages relèvent du marquage IA-O."
       },
       {
-        "q": "Quelle différence entre IA-A, IA-C, IA-G et IA-D ?",
-        "a": "Quatre niveaux d'implication de l'IA :\n• **IA-A (Assistance)**, l'IA améliore un contenu existant : correction, reformulation, traduction.\n• **IA-C (Co-construction)**, l'IA structure ou rédige une partie : plan, idées, sections.\n• **IA-G (Génération)**, l'IA produit l'essentiel : texte, image, vidéo majoritairement générés.\n• **IA-D (Décision/Analyse)**, l'IA aide à analyser ou orienter une décision.\nPlus on monte dans l'échelle, plus la mention est explicite et la validation humaine visible.\nLe critère qui distingue IA-C et IA-G porte sur le texte final, pas sur l'origine des idées. Si la majorité des formulations vient de l'IA, c'est IA-G, même quand la matière, les choix et le pilotage sont humains. Si la majorité du texte reste de votre main, c'est IA-C. En cas d'hésitation, choisissez le marquage supérieur : signaler l'IA n'enlève rien à votre travail."
+        "q": "Quelle différence entre IA-A, IA-C, IA-G et IA-O ?",
+        "a": "Quatre niveaux d'implication de l'IA :\n• **IA-A (Assistance)**, l'IA améliore un contenu existant : correction, reformulation, traduction.\n• **IA-C (Co-construction)**, l'IA structure ou rédige une partie : plan, idées, sections.\n• **IA-G (Génération)**, l'IA produit l'essentiel : texte, image, vidéo majoritairement générés.\n• **IA-O (Oriente une décision)**, l'IA aide à analyser ou orienter une décision.\nPlus on monte dans l'échelle, plus la mention est explicite et la validation humaine visible.\nLe critère qui distingue IA-C et IA-G porte sur le texte final, pas sur l'origine des idées. Si la majorité des formulations vient de l'IA, c'est IA-G, même quand la matière, les choix et le pilotage sont humains. Si la majorité du texte reste de votre main, c'est IA-C. En cas d'hésitation, choisissez le marquage supérieur : signaler l'IA n'enlève rien à votre travail."
       },
       {
         "q": "Pourquoi Bruxelles Formation encadre-t-elle l'usage de l'IA ?",
-        "a": "Pour trois raisons indissociables :\n• **Sécurité**, protéger les données des apprenant·e·s, du personnel et de l'institution.\n• **Cohérence**, éviter que chacun·e bricole dans son coin avec des règles différentes.\n• **Confiance**, assurer à nos publics que les contenus diffusés sont fiables, vérifiés et assumés humainement."
+        "a": "Pour trois raisons indissociables :\n• **Sécurité**, protéger les données des stagiaires, du personnel et de l'institution.\n• **Cohérence**, éviter que chacun·e bricole dans son coin avec des règles différentes.\n• **Confiance**, assurer à nos publics que les contenus diffusés sont fiables, vérifiés et assumés humainement."
       },
       {
         "q": "L'utilisation de l'IA est-elle autorisée pour les communications internes ?",
@@ -248,12 +247,12 @@ window.FAQ = [
         "a": "Trois critères :\n• **Où sont stockées les données ?** (UE vs hors UE, conformité RGPD).\n• **Sont-elles réutilisées pour entraîner le modèle ?** (oui pour les outils grand public, non pour les versions entreprise).\n• **Quelles garanties contractuelles ?** (audit, suppression, certifications type ISO 27001).\nCopilot M365 sous contrat BF coche les trois cases."
       },
       {
-        "q": "Puis-je utiliser l'IA avec des données personnelles, RH ou apprenants ?",
+        "q": "Puis-je utiliser l'IA avec des données personnelles, RH ou stagiaires ?",
         "a": "**Uniquement dans Copilot M365 et uniquement si votre fonction le justifie.** Le RGPD s'applique pleinement : finalité claire, durée de conservation, droit d'accès des personnes. Ne traitez jamais ces données dans un outil externe, même « juste pour tester ».\nTout nouveau traitement de données personnelles via l'IA est validé au préalable par le DPO / la Direction juridique : vérification d'une base légale et inscription au registre des traitements. Finalité, durée et droit d'accès ne suffisent pas."
       },
       {
         "q": "Puis-je partager des documents internes dans un outil IA ?",
-        "a": "Tout dépend du document et de l'outil :\n• **Document public** (catalogue de formation, communiqué) → tout outil autorisé.\n• **Document interne non sensible** (note de service, support de cours) → Copilot M365 uniquement.\n• **Document confidentiel** (RH, finance, stratégie, dossier apprenant) → Copilot M365 + selon les règles de votre service.\nSi vous hésitez sur la catégorie, demandez."
+        "a": "Tout dépend du document et de l'outil :\n• **Document public** (catalogue de formation, communiqué) → tout outil autorisé.\n• **Document interne non sensible** (note de service, support de cours) → Copilot M365 uniquement.\n• **Document confidentiel** (RH, finance, stratégie, dossier stagiaire) → Copilot M365 + selon les règles de votre service.\nSi vous hésitez sur la catégorie, demandez."
       }
     ]
   },
@@ -265,11 +264,11 @@ window.FAQ = [
     "items": [
       {
         "q": "Quand dois-je signaler l'usage de l'IA dans un document ou un support ?",
-        "a": "**Dès que l'IA influence significativement le contenu**, et toujours pour :\n• les contenus pédagogiques diffusés à des apprenant·e·s,\n• les évaluations,\n• les communications externes,\n• les communications internes à diffusion large (Magellan, fiches projets, articles).\nPour une simple correction orthographique ou une reformulation d'une phrase, **le signalement n'est pas requis**."
+        "a": "**Dès que l'IA influence significativement le contenu**, et toujours pour :\n• les contenus pédagogiques diffusés à des stagiaires,\n• les évaluations,\n• les communications externes,\n• les communications internes à diffusion large (Magellan, fiches projets, articles).\nPour une simple correction orthographique ou une reformulation d'une phrase, **le signalement n'est pas requis**."
       },
       {
         "q": "Comment citer ou mentionner correctement l'usage de l'IA dans un document ?",
-        "a": "Une mention courte en pied de page ou en fin de document suffit :\n• *« Support produit avec l'appui de l'IA (IA-C). »*\n• *« Contenu majoritairement généré par IA (IA-G), relu et validé par [Prénom Nom]. »*\n• *« Analyse réalisée avec l'appui de l'IA (IA-D), décision humaine assumée par [Prénom Nom]. »*\nLe code (A/C/G/D) donne le niveau d'implication ; le nom donne le valideur humain."
+        "a": "Une mention courte en pied de page ou en fin de document suffit :\n• *« Support produit avec l'appui de l'IA (IA-C). »*\n• *« Contenu majoritairement généré par IA (IA-G), relu et validé par [Prénom Nom]. »*\n• *« Décision orientée avec l'appui de l'IA (IA-O), décision humaine assumée par [Prénom Nom]. »*\nLe code (A/C/G/O) donne le niveau d'implication ; le nom donne le valideur humain."
       },
       {
         "q": "Comment signaler l'usage de l'IA dans un média ou un support multimédia ?",
@@ -365,19 +364,19 @@ window.FAQ = [
       },
       {
         "q": "Puis-je utiliser l'IA pour adapter un contenu à différents publics ?",
-        "a": "Oui, c'est un usage à forte valeur pédagogique. L'IA est excellente pour :\n• **Simplifier** un texte technique (niveau A2/B1 pour public allophone),\n• **Densifier** un contenu pour des apprenant·e·s avancé·e·s,\n• **Adapter le ton** (formel/informel),\n• **Proposer une alternative accessible** (sous-titrage, version audio-friendly).\nRelisez systématiquement : la simplification peut perdre du sens.\nCopilot propose une section « enseigner » dédiée à la différenciation pédagogique."
+        "a": "Oui, c'est un usage à forte valeur pédagogique. L'IA est excellente pour :\n• **Simplifier** un texte technique (niveau A2/B1 pour public allophone),\n• **Densifier** un contenu pour des stagiaires avancé·e·s,\n• **Adapter le ton** (formel/informel),\n• **Proposer une alternative accessible** (sous-titrage, version audio-friendly).\nRelisez systématiquement : la simplification peut perdre du sens.\nCopilot propose une section « enseigner » dédiée à la différenciation pédagogique."
       },
       {
         "q": "Puis-je utiliser l'IA pendant une animation ou une formation ?",
-        "a": "Oui, **comme outil pédagogique transparent** :\n• Démonstration en direct (« regardons ensemble comment l'IA répond à cette question »).\n• Génération d'exemples à la demande des apprenant·e·s.\n• Comparaison de deux réponses pour développer l'esprit critique.\n**À éviter** : déléguer la conduite de la formation à l'IA, ou l'utiliser sans expliquer son rôle aux apprenant·e·s."
+        "a": "Oui, **comme outil pédagogique transparent** :\n• Démonstration en direct (« regardons ensemble comment l'IA répond à cette question »).\n• Génération d'exemples à la demande des stagiaires.\n• Comparaison de deux réponses pour développer l'esprit critique.\n**À éviter** : déléguer la conduite de la formation à l'IA, ou l'utiliser sans expliquer son rôle aux stagiaires."
       },
       {
-        "q": "Puis-je demander aux apprenants d'utiliser des outils IA ?",
+        "q": "Puis-je demander aux stagiaires d'utiliser des outils IA ?",
         "a": "Oui, c'est possible et pertinent dans une démarche de littératie numérique, à l'appréciation du formateur·rice. Cadre :\n• **Expliquez les règles** (RGPD, transparence) avant l'usage.\n• **Choisissez des outils accessibles gratuitement** sans compte sensible.\n• **Encadrez la consigne** : que doivent-ils faire avec la réponse IA ? La vérifier ? La comparer ? La critiquer ?\n• **Évaluez le processus**, pas seulement le résultat."
       },
       {
         "q": "Comment intégrer l'IA dans une démarche pédagogique responsable ?",
-        "a": "Quatre piliers :\n• **Transparence** : annoncer aux apprenant·e·s quand et comment vous utilisez l'IA.\n• **Esprit critique** : faire vérifier, comparer, contredire les réponses IA.\n• **Posture pédagogique** : l'IA est un outil, pas un substitut à l'enseignant·e.\n• **Équité** : s'assurer que tou·te·s les apprenant·e·s ont les mêmes conditions d'accès aux outils."
+        "a": "Quatre piliers :\n• **Transparence** : annoncer aux stagiaires quand et comment vous utilisez l'IA.\n• **Esprit critique** : faire vérifier, comparer, contredire les réponses IA.\n• **Posture pédagogique** : l'IA est un outil, pas un substitut à l'enseignant·e.\n• **Équité** : s'assurer que tou·te·s les stagiaires ont les mêmes conditions d'accès aux outils."
       },
       {
         "q": "Quels usages pédagogiques de l'IA sont recommandés à Bruxelles Formation ?",
@@ -425,7 +424,7 @@ window.FAQ = [
       },
       {
         "q": "Puis-je utiliser l'IA pour analyser des tableaux, indicateurs ou données ?",
-        "a": "Oui, c'est typiquement un usage IA-D (décision/analyse). Bonnes pratiques :\n• **Précisez le contexte** dans votre prompt : ces données viennent de tel service, sur telle période, mesurent tel objectif.\n• **Demandez à l'IA d'expliciter ses hypothèses**.\n• **Croisez avec votre expertise terrain** avant toute conclusion."
+        "a": "Oui, c'est typiquement un usage IA-O (oriente une décision). Bonnes pratiques :\n• **Précisez le contexte** dans votre prompt : ces données viennent de tel service, sur telle période, mesurent tel objectif.\n• **Demandez à l'IA d'expliciter ses hypothèses**.\n• **Croisez avec votre expertise terrain** avant toute conclusion."
       },
       {
         "q": "Puis-je utiliser l'IA pour analyser des fichiers Excel ou croiser des données ?",
