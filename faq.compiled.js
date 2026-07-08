@@ -26,7 +26,7 @@ function ToolHelper() {
     sensible: {
       tone: 'ko',
       title: 'Copilot M365 + validation',
-      body: /*#__PURE__*/React.createElement(React.Fragment, null, "Données RH, apprenant·e·s, stratégiques, financières : ", /*#__PURE__*/React.createElement("strong", null, "Copilot M365 + accord hiérarchique"), " si diffusion. En cas de doute, anonymisez ou ne mettez pas.")
+      body: /*#__PURE__*/React.createElement(React.Fragment, null, "Données RH, stagiaires, stratégiques, financières : ", /*#__PURE__*/React.createElement("strong", null, "Copilot M365 + accord hiérarchique"), " si diffusion. En cas de doute, anonymisez ou ne mettez pas.")
     }
   };
   return /*#__PURE__*/React.createElement("div", {
@@ -101,9 +101,9 @@ function MarkupHelper({
       need: true
     },
     analysis: {
-      id: 'IA-D',
+      id: 'IA-O',
       tone: 'warn',
-      label: 'Décision / Analyse',
+      label: 'Oriente une décision',
       need: true
     }
   };
@@ -147,7 +147,7 @@ function MarkupHelper({
     label: 'Produit l\'essentiel'
   }, {
     id: 'analysis',
-    label: 'Aidé à analyser'
+    label: 'Aidé à orienter une décision'
   }].map(c => /*#__PURE__*/React.createElement("button", {
     key: c.id,
     className: 'helper__choice' + (contribution === c.id ? ' is-active' : ''),
