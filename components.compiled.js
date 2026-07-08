@@ -306,20 +306,6 @@ function Hero() {
 }
 window.Hero = Hero;
 
-/* ---------- Finalité block ---------- */
-function Finalite() {
-  return /*#__PURE__*/React.createElement("div", {
-    className: "finalite"
-  }, /*#__PURE__*/React.createElement("div", {
-    className: "finalite__mark"
-  }, "✦"), /*#__PURE__*/React.createElement("div", null, /*#__PURE__*/React.createElement("div", {
-    className: "finalite__title"
-  }, "Finalité"), /*#__PURE__*/React.createElement("p", {
-    className: "finalite__text"
-  }, CHARTER.intro.finalite)));
-}
-window.Finalite = Finalite;
-
 /* ---------- Engagement card ---------- */
 function EngagementCard({
   data,
@@ -396,7 +382,7 @@ function CharterSection() {
     className: "section__title"
   }, "5 engagements, un cadre clair."), /*#__PURE__*/React.createElement("p", {
     className: "section__sub"
-  }, "L'essentiel se lit d'un coup d'œil. Dépliez les exemples si besoin.")), /*#__PURE__*/React.createElement(Finalite, null), /*#__PURE__*/React.createElement("div", {
+  }, "L'essentiel se lit d'un coup d'œil. Dépliez les exemples si besoin.")), /*#__PURE__*/React.createElement("div", {
     className: "engagements"
   }, CHARTER.engagements.map((e, i) => /*#__PURE__*/React.createElement(EngagementCard, {
     key: e.n,
