@@ -5,12 +5,24 @@
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Charte IA · Bruxelles Formation</title>
 <meta name="description" content="Charte d'usage de l'intelligence artificielle à Bruxelles Formation — version 2. 5 engagements, 4 marquages, FAQ complète.">
+
+<!-- Casse-cache automatique : force TOUJOURS un chargement neuf du document lui-même
+     (utile pour Teams, qui garde en cache une URL déjà vue et ne la revérifie jamais seul).
+     Ne pas retirer, ne dépend d'aucune valeur à mettre à jour à la main. -->
+<script>
+(function () {
+  if (location.search.indexOf('_t=') === -1) {
+    location.replace(location.pathname + '?_t=' + Date.now());
+  }
+})();
+</script>
+
 <!-- CACHE_VERSION : incrémenter cette valeur (ex. date du jour AAAAMMJJ) à CHAQUE republication
      touchant data.js, styles.css ou un .compiled.js. C'est ce qui force Teams et les navigateurs
      à retélécharger les fichiers au lieu de garder l'ancienne version en cache. -->
-<link rel="stylesheet" href="assets/colors_and_type.css?v=20260708">
-<link rel="stylesheet" href="styles.css?v=20260708">
-<link rel="icon" href="assets/logo-bf.png?v=20260708">
+<link rel="stylesheet" href="assets/colors_and_type.css?v=20260708b">
+<link rel="stylesheet" href="styles.css?v=20260708b">
+<link rel="icon" href="assets/logo-bf.png?v=20260708b">
 
 <!-- React production (UMD) — pas de Babel : tout est déjà compilé en JS classique -->
 <script src="https://unpkg.com/react@18.3.1/umd/react.production.min.js" crossorigin="anonymous"></script>
@@ -20,9 +32,9 @@
 <div id="root"></div>
 
 <!-- Données puis composants compilés (ordre important) -->
-<script src="data.js?v=20260708"></script>
-<script src="components.compiled.js?v=20260708"></script>
-<script src="faq.compiled.js?v=20260708"></script>
-<script src="app.compiled.js?v=20260708"></script>
+<script src="data.js?v=20260708b"></script>
+<script src="components.compiled.js?v=20260708b"></script>
+<script src="faq.compiled.js?v=20260708b"></script>
+<script src="app.compiled.js?v=20260708b"></script>
 </body>
 </html>
