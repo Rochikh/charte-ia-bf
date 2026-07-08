@@ -22,7 +22,7 @@ function ToolHelper() {
     sensible: {
       tone: 'ko',
       title: 'Copilot M365 + validation',
-      body: <>Données RH, apprenant·e·s, stratégiques, financières : <strong>Copilot M365 + accord hiérarchique</strong> si diffusion. En cas de doute, anonymisez ou ne mettez pas.</>
+      body: <>Données RH, stagiaires, stratégiques, financières : <strong>Copilot M365 + accord hiérarchique</strong> si diffusion. En cas de doute, anonymisez ou ne mettez pas.</>
     }
   };
 
@@ -74,7 +74,7 @@ function MarkupHelper({ onToast }) {
     light:    { id: 'IA-A', tone: 'ok',   label: 'Assistance', need: false },
     partial:  { id: 'IA-C', tone: 'warn', label: 'Co-construction', need: true },
     major:    { id: 'IA-G', tone: 'warn', label: 'Génération', need: true },
-    analysis: { id: 'IA-D', tone: 'warn', label: 'Décision / Analyse', need: true }
+    analysis: { id: 'IA-O', tone: 'warn', label: 'Oriente une décision', need: true }
   };
   const c = contribution ? codes[contribution] : null;
   const codeData = c ? CHARTER.codes.find(x => x.id === c.id) : null;
@@ -103,7 +103,7 @@ function MarkupHelper({ onToast }) {
           { id: 'light', label: 'Juste corrigé / reformulé' },
           { id: 'partial', label: 'Structuré une partie' },
           { id: 'major', label: 'Produit l\'essentiel' },
-          { id: 'analysis', label: 'Aidé à analyser' }
+          { id: 'analysis', label: 'Aidé à orienter une décision' }
         ].map(c => (
           <button
             key={c.id}
