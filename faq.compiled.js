@@ -208,7 +208,9 @@ window.HelpersSection = HelpersSection;
    FAQ Section
    ============================================================ */
 
-// turn the answer string into nodes — supports **bold**, • bullets, line breaks
+// turn the answer string into nodes — supports **bold**, • bullets, line breaks, auto-linkified emails
+const EMAIL_RE = /([a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,})/g;
+const EMAIL_RE_FULL = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
 function renderAnswer(text, query) {
   const highlight = str => {
     if (!query || query.length < 2) return str;
@@ -218,6 +220,30 @@ function renderAnswer(text, query) {
       key: i
     }, p) : p);
   };
+
+  // wraps bare email addresses in a mailto link; leaves already-processed nodes (e.g. <mark>) untouched
+  const linkifyEmails = nodes => {
+    const arr = Array.isArray(nodes) ? nodes : [nodes];
+    const out = [];
+    arr.forEach((node, idx) => {
+      if (typeof node !== 'string') {
+        out.push(node);
+        return;
+      }
+      node.split(EMAIL_RE).forEach((p, j) => {
+        if (!p) return;
+        if (EMAIL_RE_FULL.test(p)) {
+          out.push(/*#__PURE__*/React.createElement("a", {
+            key: 'em' + idx + '-' + j,
+            href: 'mailto:' + p
+          }, p));
+        } else {
+          out.push(p);
+        }
+      });
+    });
+    return out;
+  };
   const boldify = str => {
     // split on **...**
     const parts = str.split(/(\*\*[^*]+\*\*)/g);
@@ -225,11 +251,11 @@ function renderAnswer(text, query) {
       if (p.startsWith('**') && p.endsWith('**')) {
         return /*#__PURE__*/React.createElement("strong", {
           key: i
-        }, highlight(p.slice(2, -2)));
+        }, linkifyEmails(highlight(p.slice(2, -2))));
       }
       return /*#__PURE__*/React.createElement(React.Fragment, {
         key: i
-      }, highlight(p));
+      }, linkifyEmails(highlight(p)));
     });
   };
 
