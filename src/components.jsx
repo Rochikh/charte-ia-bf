@@ -123,21 +123,6 @@ function Hero() {
 window.Hero = Hero;
 
 
-/* ---------- Finalité block ---------- */
-function Finalite() {
-  return (
-    <div className="finalite">
-      <div className="finalite__mark">✦</div>
-      <div>
-        <div className="finalite__title">Finalité</div>
-        <p className="finalite__text">{CHARTER.intro.finalite}</p>
-      </div>
-    </div>
-  );
-}
-window.Finalite = Finalite;
-
-
 /* ---------- Engagement card ---------- */
 function EngagementCard({ data, isOpen, onToggle }) {
   return (
@@ -191,7 +176,6 @@ function CharterSection() {
           L'essentiel se lit d'un coup d'œil. Dépliez les exemples si besoin.
         </p>
       </div>
-      <Finalite/>
       <div className="engagements">
         {CHARTER.engagements.map((e, i) => (
           <EngagementCard
