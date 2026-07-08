@@ -5,9 +5,12 @@
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Charte IA · Bruxelles Formation</title>
 <meta name="description" content="Charte d'usage de l'intelligence artificielle à Bruxelles Formation — version 2. 5 engagements, 4 marquages, FAQ complète.">
-<link rel="stylesheet" href="assets/colors_and_type.css">
-<link rel="stylesheet" href="styles.css">
-<link rel="icon" href="assets/logo-bf.svg">
+<!-- CACHE_VERSION : incrémenter cette valeur (ex. date du jour AAAAMMJJ) à CHAQUE republication
+     touchant data.js, styles.css ou un .compiled.js. C'est ce qui force Teams et les navigateurs
+     à retélécharger les fichiers au lieu de garder l'ancienne version en cache. -->
+<link rel="stylesheet" href="assets/colors_and_type.css?v=20260708">
+<link rel="stylesheet" href="styles.css?v=20260708">
+<link rel="icon" href="assets/logo-bf.png?v=20260708">
 
 <!-- React production (UMD) — pas de Babel : tout est déjà compilé en JS classique -->
 <script src="https://unpkg.com/react@18.3.1/umd/react.production.min.js" crossorigin="anonymous"></script>
@@ -17,9 +20,9 @@
 <div id="root"></div>
 
 <!-- Données puis composants compilés (ordre important) -->
-<script src="data.js"></script>
-<script src="components.compiled.js"></script>
-<script src="faq.compiled.js"></script>
-<script src="app.compiled.js"></script>
+<script src="data.js?v=20260708"></script>
+<script src="components.compiled.js?v=20260708"></script>
+<script src="faq.compiled.js?v=20260708"></script>
+<script src="app.compiled.js?v=20260708"></script>
 </body>
 </html>
