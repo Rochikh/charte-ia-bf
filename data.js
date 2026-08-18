@@ -13,27 +13,6 @@ window.CHARTER = {
   "engagements": [
     {
       "n": 1,
-      "hue": "bleu",
-      "title": "Responsabilité et esprit critique",
-      "slogan": "L'IA propose, l'humain décide.",
-      "pillars": [
-        "Vérifier les faits et les sources",
-        "Adapter au contexte BF",
-        "Assumer le contenu final"
-      ],
-      "examples": {
-        "ok": [
-          "Relire et corriger une synthèse avant de l'envoyer",
-          "Recouper chiffres et noms dans une source fiable"
-        ],
-        "ko": [
-          "Diffuser un texte généré sans relecture",
-          "Justifier une erreur par « c'est l'IA »"
-        ]
-      }
-    },
-    {
-      "n": 2,
       "hue": "vert",
       "title": "Usage responsable et proportionné",
       "slogan": "L'IA est une option, pas la solution.",
@@ -51,6 +30,27 @@ window.CHARTER = {
         "ko": [
           "Faire écrire un retour à un stagiaire en difficulté",
           "Remplacer une réunion d'équipe par un résumé IA"
+        ]
+      }
+    },
+    {
+      "n": 2,
+      "hue": "bleu",
+      "title": "Responsabilité et esprit critique",
+      "slogan": "L'IA propose, l'humain décide.",
+      "pillars": [
+        "Vérifier les faits et les sources",
+        "Adapter au contexte BF",
+        "Assumer le contenu final"
+      ],
+      "examples": {
+        "ok": [
+          "Relire et corriger une synthèse avant de l'envoyer",
+          "Recouper chiffres et noms dans une source fiable"
+        ],
+        "ko": [
+          "Diffuser un texte généré sans relecture",
+          "Justifier une erreur par « c'est l'IA »"
         ]
       }
     },
