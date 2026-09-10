@@ -171,8 +171,8 @@ window.FAQ = [
         "a": "Oui, c'est autorisé dès lors que l'usage apporte une valeur ajoutée réelle (gain de temps significatif, qualité accrue, aide sur une tâche complexe ou inhabituelle) et qu'il respecte les 5 engagements de la charte. **Ne pas utiliser l'IA est tout aussi légitime** : par choix, par prudence, ou pour des raisons de valeurs, d'impact sociétal et environnemental, ou de souveraineté numérique. **Privilégiez Copilot M365 en première intention** : c'est l'outil sécurisé à utiliser pour le travail courant."
       },
       {
-        "q": "Tous les usages de l'IA nécessitent-ils réellement un outil génératif ?",
-        "a": "Non, et c'est une question essentielle. Avant d'invoquer l'IA, demandez-vous :\n• Est-ce que la réponse existe déjà sur Magellan, dans un mail, dans un document ?\n• Une recherche simple suffirait-elle ?\n• Un·e collègue saurait-il·elle répondre en 2 minutes ?\nL'IA est utile, pas universelle."
+        "q": "Comment savoir si le recours à l'IA est pertinent ?",
+        "a": "Avant d'invoquer l'IA, demandez-vous :\n• Est-ce que la réponse existe déjà sur Magellan, dans un mail, dans un document ?\n• Une recherche simple suffirait-elle ?\n• Un·e collègue saurait-il·elle répondre en 2 minutes ?\nL'IA est utile, pas universelle."
       },
       {
         "q": "Comment utiliser l'IA de manière sobre et pertinente ?",
@@ -204,11 +204,11 @@ window.FAQ = [
       },
       {
         "q": "Où trouver les outils IA autorisés, les recommandations et les bonnes pratiques BF ?",
-        "a": "La section IA / Copilot de **Magellan** (intranet BF) est **en cours de constitution**. Elle regroupera la liste des outils validés, les exemples de prompts et le support BF-TICE.\nEn attendant, l'interlocuteur varie selon la nature de votre question :\n• **BF-TICE** : outils, usages, prompts.\n• **DSI** : sécurité, comptes, autorisation d'un nouvel outil.\n• **Direction juridique / DPO** : données personnelles, cadre légal.\n• **GT IA** : arbitrage d'un nouvel usage.\nEn cas de doute sur un outil non listé, contactez BF-TICE avant de l'utiliser."
+        "a": "Un espace IA / Copilot est **en préparation** sur **Magellan** (intranet BF). Il regroupera la liste des outils validés, les exemples de prompts et le support BF-TICE.\nEn attendant, l'interlocuteur varie selon la nature de votre question :\n• **BF-TICE** : outils, usages, prompts.\n• **DSI** : sécurité, comptes, autorisation d'un nouvel outil.\n• **Direction juridique / DPO** : données personnelles, cadre légal.\n• **GT IA** : arbitrage d'un nouvel usage.\nEn cas de doute sur un outil non listé, contactez BF-TICE avant de l'utiliser."
       },
       {
         "q": "L'usage de l'IA a-t-il un impact environnemental et sociétal ?",
-        "a": "Oui, et la charte y consacre une catégorie entière : **Numérique responsable et impact environnemental**. Vous y trouverez comment limiter l'empreinte de vos usages, quels usages consomment le plus et comment concilier innovation et sobriété."
+        "a": "Oui, les deux.\n• **Environnemental** : la charte y consacre une catégorie entière, **Numérique responsable et impact environnemental**. Vous y trouverez quels usages consomment le plus, comment limiter l'empreinte de vos usages et comment concilier innovation et sobriété.\n• **Sociétal** : conditions de travail des personnes qui annotent les données, concentration du pouvoir chez quelques acteurs, désinformation, effets sur les compétences et l'emploi. Ces enjeux font partie des raisons légitimes de choisir de ne pas recourir à l'IA (engagement 1)."
       }
     ]
   },
@@ -220,15 +220,15 @@ window.FAQ = [
     "items": [
       {
         "q": "Puis-je utiliser ChatGPT ou Claude avec des données liées à Bruxelles Formation ?",
-        "a": "**Uniquement des données publiques ou anonymisées.** Tout ce qui permet d'identifier une personne, un dossier interne ou une donnée stratégique de BF est interdit dans un outil externe. Pour ces contenus-là, utilisez Copilot M365 connecté à votre compte BF.\nBF ne met pas à disposition d'abonnement payant à ces outils externes : seul Copilot M365 est couvert par un contrat BF. Tout autre abonnement passe par les circuits de validation et de budget."
+        "a": "**Uniquement des données publiques ou anonymisées.** Tout ce qui permet d'identifier une personne, un dossier interne ou une donnée stratégique de BF est interdit dans un outil externe. Pour ces contenus-là, utilisez Copilot M365 connecté à votre compte BF.\nTout agent dispose, avec sa licence Microsoft 365, de **Microsoft 365 Copilot Chat**, accessible en se connectant avec son compte BF (Edge, Teams, application Microsoft 365 Copilot). Les fonctions de Copilot intégrées à Word, Excel, PowerPoint et Teams relèvent d'une licence complémentaire payante, attribuée au cas par cas. Tout autre outil payant passe par les circuits de validation et de budget."
       },
       {
         "q": "Quelle différence entre un outil IA sécurisé (ex. Copilot M365) et un outil IA externe ?",
-        "a": "**Copilot M365 sous compte BF** : hébergé dans le cadre contractuel Microsoft de l'organisation, données non utilisées pour entraîner les modèles, conformité RGPD assurée par BF.\n**Outil externe (ChatGPT.com, Claude.ai, Gemini grand public…)** : compte personnel, données potentiellement réutilisées pour l'entraînement, aucune garantie BF. Bien pour explorer, jamais pour des données BF non publiques."
+        "a": "**Copilot M365 sous compte BF** : hébergé dans le cadre contractuel Microsoft de l'organisation, données non utilisées pour entraîner les modèles, conformité RGPD assurée par BF.\n**Outil externe (ChatGPT.com, Claude.ai, Gemini grand public…)** : données potentiellement réutilisées pour l'entraînement, aucune garantie BF. Bien pour explorer, jamais pour des données BF non publiques."
       },
       {
         "q": "Puis-je utiliser Gemini, ChatGPT ou Claude avec mon compte professionnel ?",
-        "a": "**Non pas avec votre adresse @bruxellesformation.brussels** sauf autorisation de la DSI, seule habilitée sur les comptes et les contrats d'outils. Ces outils ne sont pas couverts par un contrat BF. Utilisez Copilot M365 pour le travail. Si vous souhaitez explorer un autre outil, faites-le sur un compte personnel et avec des données publiques uniquement."
+        "a": "Deux cas :\n• **Pour explorer un outil sans abonnement payant** : faites-le sur un compte personnel et avec des données publiques uniquement.\n• **Si un abonnement payant est nécessaire** : contactez la DSI, seule habilitée sur les comptes et les contrats d'outils. Elle vous indiquera le compte à utiliser : un abonnement payé par BF s'appuie sur votre adresse @bruxellesformation.brussels, afin de rester géré par l'institution.\nPour le travail courant, Copilot M365 reste l'outil par défaut."
       },
       {
         "q": "Quelle différence entre usage personnel, usage professionnel et usage sensible ?",
@@ -243,8 +243,12 @@ window.FAQ = [
         "a": "**Règle d'or : dans le doute, on ne met pas.** Anonymisez (remplacez les noms, adresses, identifiants), ou retirez l'information le temps de demander conseil à votre responsable (N+1), puis si le doute persiste à la Direction juridique / au DPO. Une fuite est toujours plus coûteuse qu'une question."
       },
       {
-        "q": "Pourquoi certains outils IA sont-ils considérés comme plus sécurisés que d'autres ?",
-        "a": "Trois critères :\n• **Où sont stockées les données ?** (UE vs hors UE, conformité RGPD).\n• **Sont-elles réutilisées pour entraîner le modèle ?** (oui pour les outils grand public, non pour les versions entreprise).\n• **Quelles garanties contractuelles ?** (audit, suppression, certifications type ISO 27001).\nCopilot M365 sous contrat BF coche les trois cases."
+        "q": "Quelles sont les questions de sécurité à se poser avant d'utiliser un outil IA ?",
+        "a": "Trois questions :\n• **Où sont stockées les données ?** (UE, hors UE, conformité RGPD).\n• **Les données sont-elles réutilisées pour entraîner le modèle ?**\n• **Quelles garanties de sécurité et de confidentialité sont proposées ?** (contrat, audit, suppression des données, certifications, gouvernance)."
+      },
+      {
+        "q": "Pourquoi Microsoft 365 Copilot Chat est-il considéré comme un outil IA sécurisé ?",
+        "a": "Microsoft 365 Copilot Chat bénéficie de mécanismes de protection conçus pour un usage professionnel :\n• **Les échanges sont protégés** par les engagements de sécurité et de conformité de Microsoft 365, avec chiffrement des données et respect des normes de protection des données.\n• **Les prompts et les réponses ne sont pas utilisés pour entraîner les modèles d'IA**, contrairement à ce qui peut se produire avec certains outils grand public.\n• **L'accès aux données respecte les droits de chaque utilisateur** : Copilot ne peut accéder qu'aux informations auxquelles l'utilisateur a déjà accès.\n• **Les interactions peuvent être auditées et administrées** conformément aux politiques de gouvernance de l'organisation.\n• **Microsoft s'engage contractuellement** sur la protection des données, notamment via le RGPD, le Data Protection Addendum (DPA) et plusieurs certifications de sécurité reconnues."
       },
       {
         "q": "Puis-je utiliser l'IA avec des données personnelles, RH ou stagiaires ?",
@@ -268,7 +272,7 @@ window.FAQ = [
       },
       {
         "q": "Comment citer ou mentionner correctement l'usage de l'IA dans un document ?",
-        "a": "Une mention courte en pied de page ou en fin de document suffit :\n• *« Support produit avec l'appui de l'IA (IA-C). »*\n• *« Contenu majoritairement généré par IA (IA-G), relu et validé par [Prénom Nom]. »*\n• *« Décision orientée avec l'appui de l'IA (IA-O), décision humaine assumée par [Prénom Nom]. »*\nLe code (A/C/G/O) donne le niveau d'implication ; le nom donne le valideur humain."
+        "a": "Une mention courte en pied de page ou en fin de document suffit :\n• *« Document relu et amélioré avec l'appui de l'IA (IA-A). »*\n• *« Support produit avec l'appui de l'IA (IA-C). »*\n• *« Contenu majoritairement généré par IA (IA-G), relu et validé par [Prénom Nom]. »*\n• *« Décision orientée avec l'appui de l'IA (IA-O), décision humaine assumée par [Prénom Nom]. »*\nLe code (A/C/G/O) donne le niveau d'implication ; le nom donne le valideur humain."
       },
       {
         "q": "Comment signaler l'usage de l'IA dans un média ou un support multimédia ?",
@@ -320,7 +324,7 @@ window.FAQ = [
       },
       {
         "q": "Comment améliorer ses prompts pour obtenir des résultats plus pertinents ?",
-        "a": "Quatre leviers :\n• **Contexte**, précisez votre rôle (« je suis formateur·rice BF »), votre public, votre format attendu.\n• **Exemples**, donnez 1-2 exemples de ce que vous attendez.\n• **Contraintes**, longueur, ton, langue, structure.\n• **Itération**, un bon prompt s'obtient en 3-4 allers-retours, pas du premier coup.\nLe BF-TICE propose une bibliothèque de prompts éprouvés sur Magellan."
+        "a": "Quatre leviers :\n• **Contexte**, précisez votre rôle (« je suis formateur·rice BF »), votre public, votre format attendu.\n• **Exemples**, donnez 1-2 exemples de ce que vous attendez.\n• **Contraintes**, longueur, ton, langue, structure.\n• **Itération**, un bon prompt s'obtient en 3-4 allers-retours, pas du premier coup."
       },
       {
         "q": "Pourquoi faut-il toujours relire et valider un contenu généré par l'IA ?",
@@ -335,16 +339,16 @@ window.FAQ = [
     "hue": "vert",
     "items": [
       {
-        "q": "Comment limiter l'impact environnemental lié aux usages de l'IA ?",
-        "a": "Trois leviers concrets :\n• **Pertinence**, n'utilisez l'IA que si elle apporte une valeur réelle. Un document ou une ressource existante suffit souvent.\n• **Précision du prompt**, un prompt clair évite les régénérations.\n• **Frugalité multimédia**, la génération d'images, vidéos, voix consomme 10 à 100× plus qu'un texte. Réservez-la aux usages utiles."
+        "q": "Quels usages de l'IA ont le plus d'impact environnemental ?",
+        "a": "Par ordre décroissant :\n• **Génération vidéo**, extrêmement coûteuse en calcul.\n• **Génération d'images**.\n• **Voix de synthèse** longues.\n• **Analyse de gros fichiers** (Excel volumineux, PDF multiples).\n• **Texte court**, l'usage le plus sobre.\nÀ usage équivalent, privilégiez toujours le format le plus léger."
       },
       {
-        "q": "Quels usages de l'IA ont le plus d'impact environnemental ?",
-        "a": "Par ordre décroissant :\n• **Génération vidéo**, extrêmement coûteuse en calcul.\n• **Génération d'images** haute définition, en masse.\n• **Voix de synthèse** longues.\n• **Analyse de gros fichiers** (Excel volumineux, PDF multiples).\n• **Texte court**, l'usage le plus sobre.\nÀ usage équivalent, privilégiez toujours le format le plus léger."
+        "q": "Comment limiter l'impact environnemental lié aux usages de l'IA ?",
+        "a": "Trois leviers concrets :\n• **Pertinence**, n'utilisez l'IA que si elle apporte une valeur réelle. Un document ou une ressource existante suffit souvent.\n• **Précision du prompt**, un prompt clair évite les régénérations.\n• **Frugalité multimédia**, la génération d'images, vidéos, voix consomme 10 à 100× plus qu'un texte. Réservez-la aux usages utiles.\nPour aller plus loin : le MOOC IA de l'Institut du Numérique Responsable (academie-nr.org/mooc-ia)."
       },
       {
         "q": "Comment concilier innovation IA et numérique responsable ?",
-        "a": "L'innovation n'exige pas la démesure. Trois principes BF :\n• **Expérimenter à petite échelle** avant de généraliser.\n• **Mesurer** la valeur ajoutée réelle (gain de temps, qualité).\n• **Arrêter** les usages qui ne tiennent pas leurs promesses.\nLa sobriété n'est pas l'ennemie de l'innovation, elle en est la condition durable."
+        "a": "L'innovation n'exige pas la démesure. Trois principes :\n• **Expérimenter à petite échelle** avant de généraliser.\n• **Mesurer** la valeur ajoutée réelle : temps gagné sur la tâche, qualité du résultat, retours des destinataires.\n• **Arrêter** les usages qui ne tiennent pas leurs promesses : résultat systématiquement retravaillé, temps de vérification supérieur au temps gagné, aucun bénéfice constaté après quelques semaines.\nLa sobriété n'est pas l'ennemie de l'innovation, elle en est la condition durable."
       }
     ]
   },
@@ -356,7 +360,7 @@ window.FAQ = [
     "items": [
       {
         "q": "Puis-je utiliser l'IA pour préparer un support de formation ou une évaluation ?",
-        "a": "Oui, c'est même un des cas d'usage les plus utiles. **Trois précautions :**\n• Gardez la maîtrise du fond : l'IA propose une structure, vous validez les contenus.\n• Vérifiez chaque fait, chiffre ou source citée, l'IA peut inventer (cf. hallucinations).\n• **Signalez l'usage** : IA-C pour un support partiellement structuré par l'IA, IA-G si l'IA a produit l'essentiel."
+        "a": "Oui, c'est même un des cas d'usage les plus utiles. **Trois précautions :**\n• Gardez la maîtrise du fond : l'IA propose une structure, vous validez les contenus.\n• Vérifiez chaque fait, chiffre ou source citée, l'IA peut inventer (cf. hallucinations).\n• **Signalez l'usage** : IA-C pour un support partiellement structuré par l'IA, IA-G si l'IA a produit l'essentiel.\nL'IA est intégrée à de nombreux outils Microsoft 365 : Copilot propose une section « Enseigner » dédiée à la création de supports de cours, d'évaluations et d'exercices.\nL'IA ne remplace pas les outils existants à Bruxelles Formation (ex. grilles d'évaluation des formations sous CECAF). En cas de doute, contactez le SMP."
       },
       {
         "q": "Puis-je utiliser l'IA pour créer des exercices, quiz ou mises en situation ?",
@@ -379,7 +383,7 @@ window.FAQ = [
         "a": "Quatre piliers :\n• **Transparence** : annoncer aux stagiaires quand et comment vous utilisez l'IA.\n• **Esprit critique** : faire vérifier, comparer, contredire les réponses IA.\n• **Posture pédagogique** : l'IA est un outil, pas un substitut à l'enseignant·e.\n• **Équité** : s'assurer que tou·te·s les stagiaires ont les mêmes conditions d'accès aux outils."
       },
       {
-        "q": "Quels usages pédagogiques de l'IA sont recommandés à Bruxelles Formation ?",
+        "q": "Quels sont les usages pédagogiques pour lesquels l'IA peut être utile ?",
         "a": "Top usages à fort impact :\n• **Préparation** : plans de cours, exercices, quiz, études de cas, mises en situation.\n• **Différenciation** : adaptation à différents niveaux et publics.\n• **Feedback** : aide à formuler des retours individualisés (à valider humainement).\n• **Accessibilité** : transcription, traduction, simplification.\n• **Veille** : synthèse de ressources pour vous, formateur·rice.\nÉvitez l'évaluation automatique notée et le feedback final non relu."
       }
     ]
@@ -392,7 +396,11 @@ window.FAQ = [
     "items": [
       {
         "q": "Puis-je utiliser l'IA pour rédiger un compte rendu ou un procès-verbal de réunion ?",
-        "a": "Oui, **avec Copilot M365 et la fonction transcription Teams**. Bonnes pratiques :\n• **Vérifiez la confidentialité** de la réunion avant de lancer la transcription.\n• **Relisez intégralement** : noms mal orthographiés, propos mal attribués, nuances perdues.\n• **Signalez IA-C** si la synthèse a structuré la réunion ; pas nécessaire pour un simple résumé personnel."
+        "a": "Oui, **avec Copilot M365 et la fonction transcription Teams**. Bonnes pratiques :\n• **Demandez l'accord de tous les participants** avant de lancer l'enregistrement ou la transcription : la voix est une donnée personnelle.\n• **Vérifiez la confidentialité** de la réunion avant de lancer la transcription.\n• **Relisez intégralement** : noms mal orthographiés, propos mal attribués, nuances perdues.\n• **Signalez IA-C** si la synthèse a structuré la réunion ; pas nécessaire pour un simple résumé personnel."
+      },
+      {
+        "q": "Puis-je utiliser un assistant IA de réunion (transcription, résumé automatique) autre que ceux de Microsoft ?",
+        "a": "**Non, sans autorisation préalable de la DSI et des participants à la réunion.** Un assistant tiers est un outil externe qui capte la voix, une donnée personnelle, et souvent des contenus stratégiques. Pour transcrire et résumer une réunion, utilisez la transcription Teams et Copilot M365."
       },
       {
         "q": "Puis-je utiliser l'IA pour automatiser certaines tâches répétitives ?",
@@ -433,34 +441,6 @@ window.FAQ = [
       {
         "q": "Puis-je utiliser l'IA pour proposer des méthodes de travail ou aider à prioriser des actions ?",
         "a": "Oui, l'IA est un bon « miroir réflexif ». Elle vous renvoie une structuration de vos enjeux que vous validez ou rejetez. C'est plus efficace que la page blanche, mais ne dispense jamais d'arbitrer humainement les priorités."
-      }
-    ]
-  },
-  {
-    "id": "accompagnement",
-    "label": "Accompagnement et montée en compétences",
-    "icon": "users",
-    "hue": "fuchsia",
-    "items": [
-      {
-        "q": "Où trouver de l'aide pour utiliser l'IA à Bruxelles Formation ?",
-        "a": "Selon la nature de votre question :\n• **BF-TICE** : les outils, l'usage au quotidien, les prompts.\n• **La DSI** : la sécurité, les comptes, l'autorisation d'un outil.\n• **La Direction juridique / le DPO** : les données personnelles et le cadre légal.\n• **Le GT IA** : l'arbitrage quand un nouvel usage ou un nouvel outil se présente.\nChaque direction ou service décide sur sa thématique ; les questions transversales sont tranchées collégialement.\nEt toujours : **Magellan** (section IA) et **vos pairs** (communauté interne)."
-      },
-      {
-        "q": "Quelles formations ou ressources existent pour apprendre à utiliser l'IA ?",
-        "a": "BF propose et propose progressivement :\n• **Ateliers découverte** (1-2h), pour démarrer avec Copilot M365.\n• **Modules d'autoformation** sur la plateforme interne.\n• **Communauté de pratique**, webinaires mensuels, retours d'expérience.\n• **Accompagnement individuel** sur demande via BF-TICE.\nL'offre évolue : consultez Magellan régulièrement."
-      },
-      {
-        "q": "Comment partager des retours d'expérience ou des bonnes pratiques ?",
-        "a": "Plusieurs canaux :\n• **Communauté IA BF** sur Teams, espace dédié.\n• **Articles Magellan**, proposez un retour d'expérience à la communication.\n• **Ateliers de pairs**, animez ou participez à des sessions courtes (« 30 min, 1 cas d'usage »).\nMutualiser nos pratiques accélère la montée en compétences de tou·te·s."
-      },
-      {
-        "q": "Existe-t-il des recommandations de prompts ou de méthodes de travail ?",
-        "a": "Oui, la **bibliothèque de prompts BF** est en construction sur Magellan. Elle réunit des prompts éprouvés par métier : préparation pédagogique, comptes rendus, analyse de données, mails délicats. Contribuez-y : un bon prompt partagé fait gagner du temps à toute l'équipe."
-      },
-      {
-        "q": "Comment BF accompagne-t-elle les équipes dans l'appropriation de l'IA ?",
-        "a": "Quatre axes :\n• **Sensibilisation**, pour comprendre ce que l'IA peut et ne peut pas faire.\n• **Expérimentation encadrée**, pour tester sans risque sur des cas concrets.\n• **Accompagnement métier**, pour adapter les usages à chaque service.\n• **Amélioration continue**, la charte, la FAQ et l'offre évoluent avec vos retours.\nL'IA à BF est un chantier collectif, pas un outil livré clé en main."
       }
     ]
   }
