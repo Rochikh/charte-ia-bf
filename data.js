@@ -8,7 +8,7 @@ window.CHARTER = {
     "label": "Charte d'usage",
     "version": "Version 3 · 2026",
     "title": "L'IA à Bruxelles Formation",
-    "sub": "Un cadre simple, opérationnel et évolutif pour utiliser l'intelligence artificielle dans nos missions pédagogiques et administratives."
+    "sub": "Un cadre simple, opérationnel et évolutif pour utiliser l'intelligence artificielle dans nos missions pédagogiques et administratives. Son usage est autorisé dans le respect de cette charte. Il reste un choix."
   },
   "engagements": [
     {
@@ -19,17 +19,19 @@ window.CHARTER = {
       "pillars": [
         "Quand elle fait gagner du temps",
         "Quand elle améliore la qualité",
+        "En tenant compte de son impact environnemental",
         "Jamais à la place des échanges humains essentiels",
         "Choisir de ne pas l'utiliser est un choix légitime"
       ],
       "examples": {
         "ok": [
-          "Synthétiser des évaluations sur un domaine que vous maîtrisez, pour juger la fidélité du résumé",
+          "Résumer un long texte sur un sujet que vous maîtrisez, pour juger la fidélité du résumé",
           "Reformuler un mail délicat avant l'envoi"
         ],
         "ko": [
-          "Faire écrire un retour à un stagiaire en difficulté",
-          "Remplacer une réunion d'équipe par un résumé IA"
+          "Confier à l'IA un message de soutien à une personne en difficulté",
+          "Remplacer un échange en groupe par un résumé IA",
+          "Générer des dizaines d'images pour n'en garder qu'une"
         ]
       }
     },
@@ -58,20 +60,20 @@ window.CHARTER = {
       "n": 3,
       "hue": "turquoise",
       "title": "Protection des données et des informations",
-      "slogan": "Interne sécurisé ≠ externe public.",
+      "slogan": "Ce qui est confidentiel reste protégé.",
       "pillars": [
-        "Outils sécurisés (M365) : OK dans le RGPD",
-        "Outils externes : données publiques ou anonymisées",
+        "Données personnelles ou confidentielles : uniquement dans un outil sécurisé et autorisé",
+        "Outils grand public : données publiques ou anonymisées",
         "Dans le doute, on n'utilise pas"
       ],
       "examples": {
         "ok": [
-          "Résumer le rapport d'une réunion interne avec Copilot M365",
-          "Anonymiser un CV avant un outil externe"
+          "Vérifier les conditions d'utilisation d'un outil avant d'y déposer un document",
+          "Anonymiser un CV avant un outil grand public"
         ],
         "ko": [
           "Coller une liste nominative dans un outil grand public",
-          "Téléverser un PV confidentiel dans une IA externe"
+          "Téléverser un document confidentiel dans une IA grand public"
         ]
       }
     },
@@ -200,7 +202,7 @@ window.FAQ = [
       },
       {
         "q": "L'utilisation de l'IA est-elle autorisée pour les communications internes ?",
-        "a": "Oui. Pour les communications internes à **diffusion large** (Magellan, fiches projets, supports équipes), la transparence s'applique : on utilise les codes IA-A à IA-G. Pour les échanges du quotidien (mail à un·e collègue, brouillon de note), le signalement n'est pas requis."
+        "a": "Oui. Pour les communications internes à **diffusion large** (Magellan, fiches projets, supports équipes), la transparence s'applique : on utilise les codes IA-A, IA-C, IA-G et IA-O. Pour les échanges du quotidien (mail à un·e collègue, brouillon de note), le signalement n'est pas requis."
       },
       {
         "q": "Où trouver les outils IA autorisés, les recommandations et les bonnes pratiques BF ?",
@@ -380,7 +382,7 @@ window.FAQ = [
       },
       {
         "q": "Comment intégrer l'IA dans une démarche pédagogique responsable ?",
-        "a": "Quatre piliers :\n• **Transparence** : annoncer aux stagiaires quand et comment vous utilisez l'IA.\n• **Esprit critique** : faire vérifier, comparer, contredire les réponses IA.\n• **Posture pédagogique** : l'IA est un outil, pas un substitut à l'enseignant·e.\n• **Équité** : s'assurer que tou·te·s les stagiaires ont les mêmes conditions d'accès aux outils."
+        "a": "Quatre piliers :\n• **Transparence** : annoncer aux stagiaires quand et comment vous utilisez l'IA.\n• **Esprit critique** : faire vérifier, comparer, contredire les réponses IA.\n• **Posture pédagogique** : l'IA est un outil au service de la formatrice ou du formateur.\n• **Équité** : s'assurer que tou·te·s les stagiaires ont les mêmes conditions d'accès aux outils."
       },
       {
         "q": "Quels sont les usages pédagogiques pour lesquels l'IA peut être utile ?",
