@@ -407,6 +407,10 @@ function Footer() {
           <a href="#outils">Assistants</a>
           <a href="#faq">FAQ</a>
         </div>
+        <div className="app-footer__col">
+          <h4>Contact</h4>
+          <a href="mailto:grp_gtia@bruxellesformation.brussels">grp_gtia@bruxellesformation.brussels</a>
+        </div>
       </div>
       <div className="app-footer__bottom">
         <span>© Bruxelles Formation · Charte IA v3 · 2026</span>
