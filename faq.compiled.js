@@ -488,7 +488,11 @@ function Footer() {
     href: "#outils"
   }, "Assistants"), /*#__PURE__*/React.createElement("a", {
     href: "#faq"
-  }, "FAQ"))), /*#__PURE__*/React.createElement("div", {
+  }, "FAQ")), /*#__PURE__*/React.createElement("div", {
+    className: "app-footer__col"
+  }, /*#__PURE__*/React.createElement("h4", null, "Contact"), /*#__PURE__*/React.createElement("a", {
+    href: "mailto:grp_gtia@bruxellesformation.brussels"
+  }, "grp_gtia@bruxellesformation.brussels"))), /*#__PURE__*/React.createElement("div", {
     className: "app-footer__bottom"
   }, /*#__PURE__*/React.createElement("span", null, "© Bruxelles Formation · Charte IA v3 · 2026"), /*#__PURE__*/React.createElement("span", null, "Document évolutif, vos retours sont précieux")), /*#__PURE__*/React.createElement("p", {
     className: "app-footer__ia",
